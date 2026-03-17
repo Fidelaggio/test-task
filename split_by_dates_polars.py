@@ -4,8 +4,8 @@ import pandas as pd
 
 def split_by_dates(df: pd.DataFrame, target_size: int, dt_col: str = "dt") -> list[pd.DataFrame]:
     '''
-    Метод работает только с заранее отсортированным pandas DataFrame.
-    Возвращает pandas DataFrame
+    РњРµС‚РѕРґ СЂР°Р±РѕС‚Р°РµС‚ С‚РѕР»СЊРєРѕ СЃ Р·Р°СЂР°РЅРµРµ РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅРЅС‹Рј pandas DataFrame.
+    Р’РѕР·РІСЂР°С‰Р°РµС‚ pandas DataFrame
     '''
     if df.empty:
         return []
